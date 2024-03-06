@@ -26,7 +26,7 @@
                 text-transform: uppercase; font-family: Arial, Helvetica, sans-serif; font-weight: 400; line-height: 1.5em; font-size: large; white-space: nowrap;
                 user-select: none; pointer-events: none;
             ">
-            Натисніть на екран
+            херяч на экран
             <br>
             для завантаження ...
         </div>
@@ -38,7 +38,7 @@
             font-family: Arial, Helvetica, sans-serif; font-weight: 400; line-height: 1.5em; font-size: large;" class="spinner-wrapper">
             <img style="width: 130px; height: 130px; pointer-events: none; user-select: none;" src="data/spin.gif" alt="spin gif">
             <br>
-            Loading...
+            загрузлово...
         </div>
     </div>
 
@@ -152,22 +152,22 @@
 
                 // Массив имён файлов .patt. Массив заполняется в порядке добавления маркеров
                 // если вместо .patt был добавлен баркод, на его место в массив добавляется пустая строка
-                const patternNames = ["" ,"" ,"" ,"" ,"" ,""];
+                const patternNames = ["pattern-picmarker.patt"];
                 // Maссив баркодов, заполняется одновременно с массивом паттернов
                 // если вместо баркода был добавлен .patt, на его место в массив добавляется -1
-                const patternBarcode = [1 ,2 ,3 ,4 ,5 ,6];
+                const patternBarcode = [-1];
                 // Массив типов контента для каждого маркера, заполняется значиями: изображение, модель, видео
-                const modes = ["image" ,"image" ,"video" ,"video" ,"video" ,"video"];
+                const modes = ["video"];
                 // Массив файлов моделей, если нет модели будет добавлена пустая строка
-                const modelFiles = ["" ,"" ,"" ,"" ,"" ,""];
+                const modelFiles = [""];
                 // Массив файлов изображений, если нет изображения будет добавлена пустая строка
-                const imageFiles = ["1 - BC_Info.jpg" ,"2 - BC_INPUT.jpg" ,"" ,"" ,"" ,""];
+                const imageFiles = [""];
                 // Массив файлов видео, если нет видео будет добавлена пустая строка
-                const videoFiles = ["" ,"" ,"3 - BC_PowerUnit.mp4" ,"4 - BC_RAM.mp4" ,"5 - BC_ALU.mp4" ,"6 - BC_Printer.mp4"];
+                const videoFiles = [" 1 - BC_ALU.mp4"];
                 // Массив файлов аудио, если нет аудио будет добавлена пустая строка
-                const audioFiles = ["1 - BC_Info.mp3" ,"2 - BC_INPUT.mp3" ,"" ,"" ,"" ,""];
+                const audioFiles = [""];
                 // Массив опций повтора аудио и видео контента, по дефолту для всех будет false
-                const repeatOptions = ["false" ,"false" ,"false" ,"false" ,"false" ,"false"];
+                const repeatOptions = ["false"];
   
                 // Создаём массив для всех маркеров
                 const markerRoots = [];
